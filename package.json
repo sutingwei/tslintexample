@@ -1,0 +1,34 @@
+{
+  "name": "tslintexample",
+  "version": "1.0.3",
+  "scripts": {
+    "b": "tsc",
+    "lint": "eslint . --fix"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "sutingwei",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "compressing": "^1.9.0",
+    "global": "^4.4.0",
+    "globals": "^15.13.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "@tencent/eslint-config-tencent": "^1.1.2",
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "javascript-obfuscator": "^4.0.2",
+    "prettier": "3.4.2",
+    "typescript-eslint": "^8.18.2"
+  }
+}
